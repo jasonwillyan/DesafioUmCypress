@@ -50,13 +50,10 @@ npm run report:mocha
 
 ``` 
 npm run report:clean
-``` 
+```  
 
+## Author
 
+<a target="_blank" href="https://github.com/jasonwillyan">👤 Jason Willyan </a>
 
-## Autores 
-
-Jason Willyan
-
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](https://github.com/jasonwillyan/)
 
