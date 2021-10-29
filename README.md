@@ -15,21 +15,36 @@ Uma série de exemplos passo a passo que mostram como colocar um ambiente de des
 `` ` 
 npm init --yes
 ` `` 
+
 `` ` 
 npm install -D cypress
 ` `` 
 
-E repita 
+`` ` 
+npm install -D chance
+` ``
 
 `` ` 
-até terminar` 
-``
-
-Termine com um exemplo de como obter alguns dados do sistema ou usá-los para uma pequena demonstração 
+npm install -D mocha mochawesome mochawesome-report-generator mochawesome-merge cypress-multi-reporters
+` ``
 
 ## Executando os testes 
 
-Explique como executar os testes automatizados para este sistema 
+`` ` 
+npm run cy:run
+` `` 
+
+`` ` 
+npm run report:merge
+` `` 
+
+`` ` 
+npm run report:mocha
+` `` 
+
+`` ` 
+npm run report:clean
+` `` 
 
 ### Divida em testes de ponta a ponta 
 
