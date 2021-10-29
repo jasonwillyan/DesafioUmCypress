@@ -1,94 +1,82 @@
-# DesafioUmCypress
-## Desafio #01 do curso Agilizei
+# Desafio #01 do curso Agilizei 
 
-Linguagem: JavaScript
+Teste de automação web usando Cypress
 
-Ferramenta: Cypress
+### Pré-requisitos 
 
-# Project Title
+Visual Studio Code
 
-One Paragraph of project description goes here
+Node.js
 
-## Getting Started
+### Instalando 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Uma série de exemplos passo a passo que mostram como colocar um ambiente de desenvolvimento em execução 
 
-### Prerequisites
+`` ` 
+npm init --yes
+` `` 
+`` ` 
+npm install -D cypress
+` `` 
 
-What things you need to install the software and how to install them
+E repita 
 
-```
-Give examples
-```
+`` ` 
+até terminar` 
+``
 
-### Installing
+Termine com um exemplo de como obter alguns dados do sistema ou usá-los para uma pequena demonstração 
 
-A step by step series of examples that tell you how to get a development env running
+## Executando os testes 
 
-Say what the step will be
+Explique como executar os testes automatizados para este sistema 
 
-```
-Give the example
-```
+### Divida em testes de ponta a ponta 
 
-And repeat
+Explique o que esses testes testam e por que 
 
-```
-until finished
-```
+`` ` 
+Dê um 
+exemplo` `` 
 
-End with an example of getting some data out of the system or using it for a little demo
+### E testes de estilo de codificação 
 
-## Running the tests
+Explique o que esses testes testam e porque 
 
-Explain how to run the automated tests for this system
+`` ` 
+Dê um 
+exemplo` `` 
 
-### Break down into end to end tests
+## Implementação 
 
-Explain what these tests test and why
+Adicione notas adicionais sobre como implementar isso em um sistema 
 
-```
-Give an example
-```
+ativo ## Construído com 
 
-### And coding style tests
+* [Dropwizard] (http://www.dropwizard.io/1.0.2/docs/) - A estrutura da web usada 
+* [Maven] (https://maven.apache.org/) - Gerenciamento de dependências
+* [ROMA] (https://rometools.github.io/rome/) - Usado para gerar RSS Feeds 
 
-Explain what these tests test and why
+## Contribuindo 
 
-```
-Give an example
-```
+Leia [CONTRIBUTING.md] (https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalhes sobre nosso código de conduta e o processo de envio de solicitações pull para nós. 
 
-## Deployment
+## 
 
-Add additional notes about how to deploy this on a live system
+Controle de versão Usamos [SemVer] (http://semver.org/) para controle de versão. Para as versões disponíveis, consulte as [tags neste repositório] (https://github.com/your/project/tags). 
 
-## Built With
+## Autores 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* ** Billie Thompson ** - * Trabalho inicial * - [PurpleBooth] (https://github.com/PurpleBooth) 
 
-## Contributing
+Veja também a lista de [contribuidores] (https://github.com/your/project / contribuidores) que participaram deste projeto. 
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Licença
 
-## Versioning
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes 
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Agradecimentos 
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
+* Gorjeta para qualquer pessoa cujo código foi usado 
+* Inspiration 
 * etc
