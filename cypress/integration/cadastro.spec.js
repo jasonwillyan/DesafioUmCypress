@@ -11,7 +11,7 @@ context('Cadastro', () => {
         cy.get                        ('a[class=login]').click();
         cy.get       ('input#email_create').type(chance.email());
         cy.get                   ('button#SubmitCreate').click();
-        cy.get              ('input#uniform-id_gender1').check();
+        cy.get              ('input#id_gender1').check();
         cy.get ('input#customer_firstname').type(chance.first());
         cy.get   ('input#customer_lastname').type(chance.last());
         cy.get                    ('input#passwd').type('12345');
