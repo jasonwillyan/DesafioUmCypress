@@ -2,6 +2,7 @@
 ## Desafio #01 do curso Agilizei
 
 Linguagem: JavaScript
+
 Ferramenta: Cypress
 
 # Project Title
