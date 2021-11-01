@@ -57,6 +57,7 @@ npm run report:clean
 ```
 ➡️ Limpa todos os dados do relatórios 
 
+
 ⚠️ Utilize isso se estiver no Unix ou macOS
 
       "report:clean": "rm -rf mochawesome-report full_report.json"
