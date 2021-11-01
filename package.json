@@ -9,7 +9,7 @@
     "cy:run": "npx cypress run",
     "report:merge": "mochawesome-merge > full_report.json",
     "report:mocha": "marge full_report.json",
-    "report:clean": "rm -fr mochawesome-report full_report.json"
+    "report:clean": "rm -rf mochawesome-report full_report.json"
   },
   "keywords": [],
   "author": "",
