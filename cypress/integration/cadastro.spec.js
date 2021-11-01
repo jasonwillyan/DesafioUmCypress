@@ -28,14 +28,14 @@ context('Cadastro', () => {
             .eq(3)
             .then(element => cy.get('select#id_state').select(element.val()));
 
-        cy.get(      'input#postcode').type(chance.zip());
-        //cy.get       ('select#id_country').select('21');             ///> Quebra o teste  
+        cy.get(      'input#postcode').type(chance.zip()); 
         cy.get('input#phone_mobile').type(chance.phone());
         cy.get     ('input#alias').type(chance.address());
         cy.get           ('button#submitAccount').click();
 
         //⬇⬇⬇⬇ Validando a url usando baseUrl + rota
-        cy.url().should('eq', Cypress.config().baseUrl + '/index.php?controller=my-account');
+        const rota = Cypress.config().baseUrl + '/index.php?controller=my-account';
+        cy.url().should('eq', rota);
 
         //⬇⬇⬇⬇ Validando texto (Welcome to your account)
         cy.get('p[class^=info]').should('contain.text', 'Welcome to your account');
