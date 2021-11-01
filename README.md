@@ -66,7 +66,7 @@ O comando "npm run report:clean" utiliza um comando do sistema operacional
 
       "report:clean": "rm -rf mochawesome-report full_report.json"
       
-✔️ Utilize isso se estiver no windows
+✔️ Utilize isso se estiver no Windows
 
       "report:clean": "rmdir /s /q mochawesome-report && del /f /s /q full_report.json"
 
