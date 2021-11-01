@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-01T21:15:30.319Z",
-    "end": "2021-11-01T21:15:54.602Z",
-    "duration": 24283,
+    "start": "2021-11-01T21:17:23.046Z",
+    "end": "2021-11-01T21:17:47.282Z",
+    "duration": 24236,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6d35bb25-7d18-44b7-857f-52086d66f128",
+      "uuid": "9c2dd5b7-e2f7-4124-ae9f-370d1a751a07",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e6e8c6c5-1aae-4d4f-a5ec-7c286aa7380e",
+          "uuid": "6e24df83-078a-4a29-a27f-2b64bf430029",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastro de novo usuario",
               "fullTitle": "Cadastro Cadastro de novo usuario",
               "timedOut": null,
-              "duration": 24118,
+              "duration": 24014,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('index.php');\ncy.get('a[class=login]').click();\ncy.get('input#email_create').type(chance.email());\ncy.get('button#SubmitCreate').click();\ncy.get('input#id_gender1').check();\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').type('12345');\ncy.get('select#days').select('10');\ncy.get('select#months').select('10');\ncy.get('select#years').select('1999');\ncy.get('input[type=checkbox]').should('have.value', '1');\ncy.get('input#optin').check();\ncy.get('input#address1').type(chance.address());\ncy.get('input#city').type(chance.city()); //⬇⬇⬇⬇ Seleciona o elemento na posição x(3) independente do value ou text\ncy.get('select#id_state > option').eq(3).then(element => cy.get('select#id_state').select(element.val()));\ncy.get('input#postcode').type(chance.zip());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.address());\ncy.get('button#submitAccount').click(); //⬇⬇⬇⬇ Validando a url usando baseUrl + rota\nconst rota = Cypress.config().baseUrl + '/index.php?controller=my-account';\ncy.url().should('eq', rota); //⬇⬇⬇⬇ Validando texto (Welcome to your account)\ncy.get('p[class^=info]').should('contain.text', 'Welcome to your account');",
               "err": {},
-              "uuid": "87dd4101-ef53-4f6b-8f72-0e1ccd749f3e",
-              "parentUUID": "e6e8c6c5-1aae-4d4f-a5ec-7c286aa7380e",
+              "uuid": "3597c441-1f31-4e43-a3e3-71ab0dde003e",
+              "parentUUID": "6e24df83-078a-4a29-a27f-2b64bf430029",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "87dd4101-ef53-4f6b-8f72-0e1ccd749f3e"
+            "3597c441-1f31-4e43-a3e3-71ab0dde003e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 24118,
+          "duration": 24014,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
