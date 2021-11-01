@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-01T20:08:46.986Z",
-    "end": "2021-11-01T20:09:10.104Z",
-    "duration": 23118,
+    "start": "2021-11-01T20:15:51.478Z",
+    "end": "2021-11-01T20:16:14.798Z",
+    "duration": 23320,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f229fb27-aabb-45d6-83c4-6812d36c5cd9",
+      "uuid": "f4c4f8c3-fc6b-40d8-8ddc-7f1615741557",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "fdaec16b-d204-4418-a868-760fe568af90",
+          "uuid": "021eb813-e6f4-4450-a48c-1806e5adc6f2",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Cadastro de novo usuario",
               "fullTitle": "Cadastro Cadastro de novo usuario",
               "timedOut": null,
-              "duration": 23027,
+              "duration": 23153,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.visit('index.php');\ncy.get('a[class=login]').click();\ncy.get('input#email_create').type(chance.email());\ncy.get('button#SubmitCreate').click();\ncy.get('input#id_gender1').check();\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').type('12345');\ncy.get('select#days').select('10');\ncy.get('select#months').select('10');\ncy.get('select#years').select('1999');\ncy.get('input[type=checkbox]').should('have.value', '1');\ncy.get('input#optin').check();\ncy.get('input#address1').type(chance.address());\ncy.get('input#city').type(chance.city()); //⬇⬇⬇⬇ Seleciona o elemento na posição x(3) independente do value ou text\ncy.get('select#id_state > option').eq(3).then(element => cy.get('select#id_state').select(element.val()));\ncy.get('input#postcode').type(chance.zip()); //cy.get       ('select#id_country').select('21');             ///> Quebra o teste  \ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.address());\ncy.get('button#submitAccount').click(); //⬇⬇⬇⬇ Validando a url usando baseUrl + rota\ncy.url().should('eq', Cypress.config().baseUrl + '/index.php?controller=my-account'); //⬇⬇⬇⬇ Validando texto (Welcome to your account)\ncy.get('p[class^=info]').should('contain.text', 'Welcome to your account');",
+              "code": "cy.visit('index.php');\ncy.get('a[class=login]').click();\ncy.get('input#email_create').type(chance.email());\ncy.get('button#SubmitCreate').click();\ncy.get('input#id_gender1').check();\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').type('12345');\ncy.get('select#days').select('10');\ncy.get('select#months').select('10');\ncy.get('select#years').select('1999');\ncy.get('input[type=checkbox]').should('have.value', '1');\ncy.get('input#optin').check();\ncy.get('input#address1').type(chance.address());\ncy.get('input#city').type(chance.city()); //⬇⬇⬇⬇ Seleciona o elemento na posição x(3) independente do value ou text\ncy.get('select#id_state > option').eq(3).then(element => cy.get('select#id_state').select(element.val()));\ncy.get('input#postcode').type(chance.zip());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.address());\ncy.get('button#submitAccount').click(); //⬇⬇⬇⬇ Validando a url usando baseUrl + rota\nconst rota = Cypress.config().baseUrl + '/index.php?controller=my-account';\ncy.url().should('eq', rota); //⬇⬇⬇⬇ Validando texto (Welcome to your account)\ncy.get('p[class^=info]').should('contain.text', 'Welcome to your account');",
               "err": {},
-              "uuid": "ee2dd1c3-1449-4246-871d-353fd66f3953",
-              "parentUUID": "fdaec16b-d204-4418-a868-760fe568af90",
+              "uuid": "18851746-aa51-4d2d-a36c-1d024aecb60c",
+              "parentUUID": "021eb813-e6f4-4450-a48c-1806e5adc6f2",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ee2dd1c3-1449-4246-871d-353fd66f3953"
+            "18851746-aa51-4d2d-a36c-1d024aecb60c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 23027,
+          "duration": 23153,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
