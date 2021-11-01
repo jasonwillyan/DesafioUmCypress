@@ -4,9 +4,9 @@ Teste de automação web usando Cypress
 
 ### Pré-requisitos 
 
-Visual Studio Code
+1️⃣ Visual Studio Code
 
-Node.js
+2️⃣ Node.js
 
 ### Instalando 
 
@@ -33,35 +33,35 @@ npm install -D mocha mochawesome mochawesome-report-generator mochawesome-merge 
 ``` 
 npm run cy:open
 ```
--> Abre o cypress 
+➡️ Abre o cypress 
 
 ou
 
 ``` 
 npm run cy:run
 ``` 
--> Executa os testes e cria a pasta mochawesome-report com um arquivo .json para cada spec (mochawesome-report\mochawesome.json)
+➡️ Executa os testes e cria a pasta mochawesome-report com um arquivo .json para cada spec (mochawesome-report\mochawesome.json)
 
 ``` 
 npm run report:merge
 ``` 
--> Pega os dados de todos os arquivos do mochawesome e gera apenas um arquivo unificado (full_report.json)
+➡️ Pega os dados de todos os arquivos do mochawesome e gera apenas um arquivo unificado (full_report.json)
 
 ``` 
 npm run report:mocha
 ``` 
--> Gera um arquivo de relatório em HTML (full_report.html)
+➡️ Gera um arquivo de relatório em HTML (full_report.html)
 
 ``` 
 npm run report:clean
 ```
--> Limpa todos os dados do relatórios 
+➡️ Limpa todos os dados do relatórios 
 
--> Utilize isso se estiver no Unix ou macOS
+⚠️ Utilize isso se estiver no Unix ou macOS
 
       "report:clean": "rm -rf mochawesome-report full_report.json"
       
--> Utilize isso se estiver no windows
+⚠️ Utilize isso se estiver no windows
 
       "report:clean": "rmdir /s /q mochawesome-report && del /f /s /q full_report.json"
 
